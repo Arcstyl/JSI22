@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#72d0e8, #f5e687);
+}
+
+.main{
+    width: 30%;
+    height: 70%;
+    left: 35%;
+    top: 15%;
+    background-color: rgb(128, 128, 128, 0.3);
+    border-radius: 30px;
+    position: absolute;
+    background-size: 100%;
+}
+
+.search input{
+    width: 70%;
+    margin-left: 5%;
+    height: 50px;
+    opacity: .8;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: gray;
+    border: none;
+}
+
+.search input:focus{
+    border: none;
+    outline: none;
+}
+
+.info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.temperature{
+    font-size: 100px;
+    margin-left: 40px;
+}
+
+.condition{
+    font-size: 20px;
+}
+
+.conditionimg img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
